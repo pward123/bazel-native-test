@@ -1,0 +1,15 @@
+version: "2.1"
+
+volumes:
+    bazel_cache:
+
+services:
+    bazel:
+        build:
+            context: .
+            dockerfile: ./Dockerfile
+        volumes:
+            - .:/src
+            - bazel_cache:/root/.cache/bazel
+        command: bazel run //packages/my-app
+        # command: /bin/bash -c "while true; do sleep 100; done"
