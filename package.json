@@ -1,0 +1,22 @@
+{
+  "name": "bazel-native-test",
+  "version": "1.0.0",
+  "description": "Reproduction of an issue with https://github.com/bazelbuild/rules_nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pward123/bazel-native-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pward123/bazel-native-test/issues"
+  },
+  "homepage": "https://github.com/pward123/bazel-native-test#readme",
+  "dependencies": {
+    "lodash": "^4.17.11"
+  }
+}
