@@ -1,5 +1,5 @@
 {
-  "name": "bazel-native-test",
+  "name": "my-app",
   "version": "1.0.0",
   "description": "Reproduction of an issue with https://github.com/bazelbuild/rules_nodejs",
   "main": "index.js",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/pward123/bazel-native-test/issues"
   },
-  "homepage": "https://github.com/pward123/bazel-native-test#readme"
+  "homepage": "https://github.com/pward123/bazel-native-test#readme",
+  "dependencies": {
+    "lodash": "^4.17.11"
+  }
 }
